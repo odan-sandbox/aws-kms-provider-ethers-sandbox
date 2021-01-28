@@ -25,5 +25,10 @@
     "test:build": "yarn build --noEmit",
     "test:jest": "yarn jest --detectOpenHandles --forceExit",
     "test:lint": "eslint --ext .js,.ts --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "aws-kms-provider": "^0.2.3",
+    "aws-sdk": "^2.832.0",
+    "ethers": "^5.0.26"
   }
 }
